@@ -1,0 +1,7 @@
+This is a short and easy example for kotlin native with cInterop for Sqlite3
+
+I had a lot of troubles finding good and short examples how to do this, so I want to publish this for reference for others. Especially how to use the CPointer<*> datatype to pass an empty pointer to a method to get the resulting struct was really hard for me to figure out (as there are not enough good examples out there).
+
+You should be able to run this with the command:
+gradle runReleaseExecutableNative
+If you don't have gradle installed, you should use an IDE to build it (I used Intellij IDEA).

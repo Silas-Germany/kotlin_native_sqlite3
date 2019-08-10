@@ -1,0 +1,4 @@
+headers = sqlite3.h
+headerFilter = sqlite3.h
+package = sqlite3
+linkerOpts = -L/usr/lib/ -lsqlite3
